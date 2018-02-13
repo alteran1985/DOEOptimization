@@ -9,15 +9,17 @@ Requirements:
 
 -Matlab (v R2014b)
 
--Additional libraries (provide statistical analysis functions):
+-Additional libraries (provide statistical analysis functions and additional functionality):
 
  -Elki v 0.7.1 - Environment for Developing KDD-Applications Supported by Index-Structures
  
  -JDistLib v 0.4.5 - Java Statistical Distribution Library
  
- -Matlab control v 4.1.0
+ -Matlab control v 4.1.0 - Allows Java-based software to invoke and execute Matlab commands
  
  -Commons Math v 3.6.1
+ 
+ -JSwarm-PSO v 2.08 (http://jswarm-pso.sourceforge.net/) - Java-based particle swarm optimizer.
 
 (1) Start the server.
 
