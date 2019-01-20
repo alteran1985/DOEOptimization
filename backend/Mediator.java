@@ -17,7 +17,7 @@ public class Mediator {
 	
 	public double[] runOptimization(int swarmsize, int maxiterations, int sampleSize){
 		Optimizer opt = new Optimizer(connector);
-		//For now, return random values, later on, this will plug-in with Eren's PSO
+		//Launch the PSO and retrieve the optimal point
 		double[] optimalPoint = opt.runOptimization(connector, swarmsize, maxiterations, sampleSize);
 		//System.out.println("Optimal point: (" + optimalPoint[0] + ", " + optimalPoint[1] + ")");
 		return optimalPoint;
